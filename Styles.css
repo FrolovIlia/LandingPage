@@ -94,5 +94,55 @@ h2 span {
     background: #817070;
 }
 
+.story{
 
+    background: white;
+    width: 800px;
+    display: flex;
+    align-items: center; /*внутри блока по вертикали размещаем элементы по центру*/
+}
+
+.text{
+    margin-left: 30px; /*отодвигаем текст от картинки*/
+    align-self: center;
+    align-items: center;
+}
+
+.img2{
+
+    padding-left: 80px;
+    width: 600px;
+    height: 400px;
+    left: 80px;
+    top: 173px;
+}
+
+.description{
+    width: 597px;
+    height: 180px;
+    left: 720px;
+    top: 283px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+.title_story{
+    padding: 60px 674px;
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
 
