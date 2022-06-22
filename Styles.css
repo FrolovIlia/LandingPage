@@ -146,3 +146,50 @@ h2 span {
     color: #000000;
 }
 
+.blog{
+    width: 1440px;
+    height: 711px;
+    left: 0;
+    top: 1365px;
+
+    background: #EFEFEF;
+}
+
+.contacts{
+    width: 1440px;
+    height: 337px;
+    left: 0;
+    top: 2076px;
+
+    background: #817070;
+}
+
+.copyright{
+    width: 1440px;
+    height: 72px;
+    left: 0;
+    top: 2414px;
+
+}
+
+.footer_data{
+    display: inline-block;
+    padding: 29px 647px;
+
+    width: 147px;
+    height: 30px;
+    left: calc(50% - 147px/2 + 0.5px);
+    top: calc(50% - 30px/2 + 7px);
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
