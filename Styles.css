@@ -56,7 +56,7 @@
 }
 
 .img1{
-    width: 100%;
+    width: 1442px;
     height: 812px;
     left: -2px;
     top: -148px;
@@ -323,3 +323,45 @@ h2 span {
 
     color: #FFFFFF;
 }
+
+.email_text{
+/*    TODO find way for realization*/
+}
+
+button{
+    margin-left: 655px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #817070;
+
+    box-sizing: border-box;
+
+    width: 129px;
+    height: 55px;
+    left: 655px;
+    top: 224px;
+
+    background: #FFFFFF;
+    border: 3px solid #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -21,7 +21,7 @@ https://www.figma.com/file/pvcOPn0cFLeAnxtLQR7S21/LangingPage?node-id=0%3A1
       
     - [ ] Add section "CONTACTS"
       - [ ] Add input
-      - [ ] Add button
+      - [X] Add button
       - [x] Add Title
       - [ ] Add CSS
       
