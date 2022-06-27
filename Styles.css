@@ -11,13 +11,15 @@
     justify-content: space-between; /*раскидываем логотип и меню по разным краям*/
     align-items: center; /*размещаем по центру*/
 }
+
 .menu{
+    padding-right: 80px;
     list-style: none;
     height: 100%;
     display: flex;
     align-items: center; /*размещаем по центру меню*/
-
 }
+
 .logo{
     text-decoration: none;
 
@@ -36,6 +38,7 @@
 
     color: #000000;
 }
+
 .link{
     font-family: 'Oswald', sans-serif;
     font-style: normal;
@@ -49,7 +52,6 @@
 
     text-decoration: none;
     margin: 10px;
-
 }
 .link:hover{
     color: rgb(114, 173, 240);
@@ -172,7 +174,6 @@ h2 span {
     height: 72px;
     left: 0;
     top: 2414px;
-
 }
 
 .footer_data{
@@ -181,7 +182,7 @@ h2 span {
 
     width: 147px;
     height: 30px;
-    left: calc(50% - 147px/2 + 0.5px);
+    left: calc(50% - 147px/2 + 1px);
     top: calc(50% - 30px/2 + 7px);
 
     font-family: 'Oswald', sans-serif;
@@ -215,7 +216,6 @@ h2 span {
 
     color: #000000;
 }
-
 
 .container{
     display: flex;
@@ -305,7 +305,8 @@ h2 span {
 }
 
 .title_contact{
-    padding: 60px 640px;
+    padding-top: 60px;
+    padding-left: 640px;
     display: flex;
 
     width: 161px;
@@ -324,9 +325,6 @@ h2 span {
     color: #FFFFFF;
 }
 
-.email_text{
-/*    TODO find way for realization*/
-}
 
 button{
     margin-left: 655px;
@@ -353,15 +351,46 @@ button{
     border: 3px solid #FFFFFF;
 }
 
+.down_bottom{
+    margin-top: 28px;
+}
 
+.down_bottom:hover {
+    color: rgb(114, 173, 240);
+}
 
+.email_border{
+    margin-left: 571px;
+    margin-top: 28px;
 
+    box-sizing: border-box;
 
+    width: 300px;
+    height: 55px;
+    left: 571px;
+    top: 141px;
 
+    background: #817070;
+    border: 3px solid #FFFFFF;
+}
 
+.email_data{
+    padding-left: 93px;
+    padding-top: 9px;
 
+    width: 111px;
+    height: 30px;
+    left: 664px;
+    top: 150px;
 
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    display: flex;
+    text-align: center;
 
-
-
-
+    color: #FFFFFF;
+}
